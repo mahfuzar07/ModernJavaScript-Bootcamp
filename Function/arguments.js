@@ -6,7 +6,7 @@ let result = math(10, 10, 3);
 console.log(result.toFixed(2));
 
 //Deafult Arguments Values
-let getScore = function (player = 'Tamim', score = 50) {
+let getScore = function (player = "Tamim", score = 50) {
   console.log(player);
   console.log(score);
 };

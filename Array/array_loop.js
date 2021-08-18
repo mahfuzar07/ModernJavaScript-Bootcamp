@@ -1,18 +1,18 @@
 //forEach
-const number = ['Mahfuzar', 'Mahfuz', 'Sohan', 'Shovon'];
+const number = ["Mahfuzar", "Mahfuz", "Sohan", "Shovon"];
 const pushNumber = [];
-number.forEach(x => {
-  pushNumber.push('Mr. ' + x);
+number.forEach((x) => {
+  pushNumber.push("Mr. " + x);
 });
 console.log(pushNumber);
 
 //Another one
 const todos = [
-  'Order food',
-  'Clean kitchen',
-  'Buy food',
-  'Do work',
-  'Exercise',
+  "Order food",
+  "Clean kitchen",
+  "Buy food",
+  "Do work",
+  "Exercise",
 ];
 todos.forEach(function (item, index) {
   const no = index + 1;
